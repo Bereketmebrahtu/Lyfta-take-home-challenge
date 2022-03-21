@@ -9,6 +9,11 @@
     <script src="app.js" defer="true"></script>
 </head>
 
+<header>
+<h1>Player</h1>
+
+</header>
+
 <div class="player">
     <video class="video" src="/Coffee - 45358.mp4">
 
@@ -17,10 +22,10 @@
 <div class="controls">
     <div class="progress">
         <div class="progress-filled">
-            <button class="player-button" title="Play"></button>
-            <input type="range" name="volume" class="slider" min="0" max="1" value="1" steps
-            ="0.05">
-            <input type="range" name="playback" class="slider" min="0.5" max="2" value="1" steps="0.1">
+            <button class="player-button" title="Play">Play</button>
+           <label for="volume">Volume:<input type="range" name="volume" class="slider" min="0" max="1" value="1" steps
+            ="0.05"></label>
+            <label for="playback">Playback: <input type="range" name="playback" class="slider" min="0.5" max="2" value="1" steps="0.1"></label>             
             <button data-skip="-10" class="player-button"><< 10s</button>
             <button data-skip="25" class="player-button">>> 25</button>
         </div>

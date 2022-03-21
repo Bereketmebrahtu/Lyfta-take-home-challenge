@@ -1,40 +1,80 @@
 :root {
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+--bg-color1:#0094AC;
+--display: flex;
+--color: #fff;
 
 
 }
 
+h1 {
+display: var(--display);
+justify-content:center;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+align-items: center;
+width: 50vw;
+color: var(--color);
+background: var(--bg-color1);
+background-position: center;
+margin-bottom: 0;
+
+}
+
 .player {
-    display: flex;
+    display: var(--display);
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 50vw;
-    border: 2px solid grey;
-    overflow: hidden;
+    width: 50vw; 
     background-position: center;
 
 }
 
 .controls {
-    display: flex;
+    display: var(--display);
     justify-content: flex-end;
+    overflow: hidden;
+    
 
 }
 
 .progress { 
 
+
+display: var(display);
+position: column;
+justify-content: center;
+width: 50vw;
+height: auto;
+background-position: center;
+background-color: #0094AC;
+
 }
 
 .progress-filled {
+display: flex;
+flex-direction: column;
+padding: 0;
+
 
 }
 
 .player-button {
 
-    padding: 0.5em;
-    color: orange;
+display: var(display);
+justify-content: center;
+padding: 0.5em;
+background-color: #0094AC;
+color: white;
+border-radius: 5px;
+border: ;
+
 
 }
 
