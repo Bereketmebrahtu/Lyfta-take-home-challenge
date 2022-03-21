@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyfta-HTML5-video-player</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer="true"></script>
+</head>
+
+<div class="player-container">
+    <div class="player-viewer" src="/Coffee - 45358.mp4"></div>
+
+    <div class="progress">
+        <div class="progress-filled">
+            <button class="player-button" title="Play"></button>
+            <input type="range" name="volume" class="slider" min="0" max="1" value"1" steps
+            ="0.05">
+            <input type="range" name="playback" class="slider" min="0.5" max="2" value="1" steps="0.1">
+            <button data-skip="-10" class="player-button"><< 10s</button>
+            <button data-skip="25" class="player-button">>> 25</button>
+        </div>
+    </div>
+</div>
+<body>
+    
+</body>
+</html>
