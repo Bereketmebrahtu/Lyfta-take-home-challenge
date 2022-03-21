@@ -8,6 +8,9 @@ const buttonsEl = playerEl.querySelector('.player-button');
 const skipButtonsEl = playerEl.querySelectorAll('.data-skip');
 const rangesEl = playerEl.querySelectorAll('.slider');
 
+
+//future implementation to make the video fully functional 
+
 function toggleProgress() {
 const playMethod = videoEl.paused ? 'play' : 'paused';
 videoEl[playMethod]()
@@ -21,7 +24,7 @@ function updateButton() {
 
 
 videoEl.addEventListener('click', toggleProgress);
-videoEl.addEventListener('click', toggleProgress);
+videoEl.addEventListener('click', updateButton);
 
 
 buttonsEl.addEventListener('click', toggleProgress);
